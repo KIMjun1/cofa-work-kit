@@ -6,8 +6,10 @@
 ## 1. 셋업 (과제 시작 직후 터미널에 붙여넣기)
 
 ```bash
-git clone -q https://github.com/KIMjun1/cofa-work-kit.git /tmp/kit 2>/dev/null; bash /tmp/kit/setup.sh
+git clone https://github.com/KIMjun1/cofa-work-kit /tmp/kit; bash /tmp/kit/setup.sh
 ```
+- 붙여넣기가 안 되면 직접 칩니다. 띄어쓰기는 4곳(`clone` 뒤, 주소 뒤, `/tmp/kit;` 뒤, `bash` 뒤), `/tmp` 앞의 `/`를 빠뜨리지 않습니다. 영문 입력 상태인지 먼저 확인합니다.
+- 다시 실행할 때 나오는 `already exists` 문구는 무시합니다.
 - 갈림길은 없습니다. 마지막 "셋업 완료" 아래에 나오는 안내(있을 때만)를 그대로 따르면 됩니다.
 - 첫 줄 `[1/5] 작업 폴더` 아래 목록이 왼쪽 파일 탐색기와 같은지만 눈으로 확인합니다.
 
