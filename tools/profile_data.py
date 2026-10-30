@@ -27,7 +27,7 @@ def _has(mod):
 
 HAS = {m: _has(m) for m in list(BASE) + list(OPTIONAL)}
 
-EXCLUDE_DIRS = {".git", "__pycache__", "node_modules", "venv", ".venv", "dist", "build"}
+EXCLUDE_DIRS = {".git", "__pycache__", "node_modules", "venv", ".venv"}
 KIT_FILES = {"AGENTS.md", "PROMPTS.md", "TOOLS.md", "PLAN.md", "PRD.md", "DECISIONS.md", "REVIEW.md",
              "DATA_PROFILE.md", "START_TIME.txt"}
 SELF_FILE = Path(__file__).resolve()
